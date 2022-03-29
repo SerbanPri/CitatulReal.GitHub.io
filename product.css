@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    font-family:monospace,cursive;
+    text-align: center;
+    color: black;
+    line-height: 2em;
+}
+body h1{
+    margin: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover{
+    color: white;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+        
+}
+.how img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.bottom{
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    padding: 100px;
+    color: white;
+    
+}
+.bottom a{
+    line-height: 2em;
+    margin: 20px;
+}
