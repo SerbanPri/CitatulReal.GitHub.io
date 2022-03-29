@@ -1,0 +1,160 @@
+body{
+    font-family:monospace,cursive;
+    background-color: lightgray; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover{
+    color: white;
+}
+
+/* index.html design */
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+/* Homepage design */
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Eleanor{
+    margin-bottom: 40px;
+}
+.Eleanor img{
+    max-width: 100%;
+    height: auto;
+}
+.images img{
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+}
+.how{
+    margin-bottom:40px;
+}
+.how img{
+    max-width: 100%;
+    height: auto;
+}
+.what img{
+    height: 650px;
+}
+/*Think different ad*/
+#vd2{
+    margin:40px 1px 40px 1px;
+}
+.title{
+    text-shadow: 0 0 3px gray;
+}
+/*Card Products*/
+.card {
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+  padding: 1px;
+    
+}
+.card h1{
+    margin-top: 10px;
+}
+.price {    
+  padding: 20px;
+  color: grey;
+  font-size: 26px;    
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.6;
+}
+
+
+/* The greastests in history Quotes */
+
+.containerr {
+      position: relative;
+      width: 43.3%;
+    float: left;
+    box-sizing: border-box;
+    margin: 20px;
+  
+      
+}
+
+.image {
+  width: 100%;
+  height: auto;
+    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .9s ease;
+  background-color: black;
+}
+
+.containerr:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.bottom{
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    padding: 100px;
+    color: white;
+    
+}
+.bottom a{
+    line-height: 2em;
+    margin: 20px;
+}

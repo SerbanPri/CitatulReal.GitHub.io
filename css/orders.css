@@ -1,0 +1,38 @@
+body{
+    color: white;
+    background-color: black;
+    font-family:monospace,cursive;
+    text-align: center;
+    width: 80%;
+    margin: auto;   
+}
+a{
+    text-decoration:none;
+    color: gray;
+}
+a:hover{
+    color: white;
+}
+
+.text{
+    margin-top: 250px;
+}
+#s{
+    width: 25px;
+    height: 25px;
+}
+.nada{
+    box-sizing: border-box;
+}
+.bottom{
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    padding: 100px;
+    color: white;
+    
+}
+.bottom a{
+    line-height: 2em;
+    margin: 20px;
+}
