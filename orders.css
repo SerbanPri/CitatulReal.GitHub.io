@@ -24,6 +24,10 @@ a:hover{
 .nada{
     box-sizing: border-box;
 }
+
+
+
+
 .bottom{
     text-align: center;
     margin-top: 100px;
@@ -33,6 +37,10 @@ a:hover{
     
 }
 .bottom a{
-    line-height: 2em;
-    margin: 20px;
+    margin-left:40px;
+    line-height:2;
+    
+}
+#signature{
+    margin-top: 100px;
 }
