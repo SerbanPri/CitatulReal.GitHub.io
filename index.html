@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro</title>
+    <link rel="icon" href="images_videos/Citatul%20Real.png">
+    <style>
+        
+  .button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+  background-color: white;
+    color: black;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 6px 18px;
+  }
+}  
+.center{
+ margin: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+    
+#myVideo {
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%; 
+ min-height: 100%;
+}
+        
+    </style>
+</head>
+
+<body>
+    
+    <video autoplay muted loop id="myVideo">
+      <source src="images_videos/Apple%20-%20Think%20Different%20-%20Full%20Version.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+    </video>
+   
+  <div class="center">
+    <a href="homepage.html"><button class="button-50">Make history</button></a>
+  </div>
+
+</body>
+</html>
